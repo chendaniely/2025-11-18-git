@@ -1,0 +1,53 @@
+  501  cd git/
+  502  git clone git@github.com:chendaniely/2025-11-18-git.git
+  503  cd 2025-11-18-git/
+  504  ls
+  505  positron .
+  506  git status
+  507  git diff
+  508  git add README.md 
+  509  git status
+  510  git commit -m "the start of 522"
+  511  git push origin main
+  512  pyenv versi5ons
+  513  pyenv versions
+  514  pyenv shell miniforge3-latest
+  515  conda activate base
+  516  conda create -n 522 python=3 pandas
+  517  conda activate 522
+  518  conda export --from-history--format=evironment.yaml -f environment.yml
+  519  conda export --from-history --format=evironment.yaml -f environment.yml
+  520  conda export --from-history --format=environment.yaml -f environment.yml
+  521  conda export --from-history --format=environment-yaml -f environment.yml
+  522  ls
+  523  cat environment.yml 
+  524  git status
+  525  git add environment.yml 
+  526  git commit -m 'environment file'
+  527  git push origin main
+  528  git status
+  529  git log --oneline --graph --all
+  530  git branch b1
+  531  git log --oneline --graph --all
+  532  git status
+  533  git switch b1
+  534  git log --oneline --graph --all
+  535  git status
+  536  git diff
+  537  git status
+  538  git add README.md 
+  539  git commit -m "create and move to new branch"
+  540  git status
+  541  git log --oneline --graph --all
+  542  git log --oneline --graph --all
+  543  git log --oneline --graph
+  544  git push origin b1
+  545  git log --oneline --graph
+  546  git log --oneline --graph -all
+  547  git log --oneline --graph --all
+  548  git status
+  549  git diff
+  550  git add README.md 
+  551  git commit -m "edit the PR"
+  552  git push origin b1
+  553  git status
