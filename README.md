@@ -10,3 +10,4 @@
 - when you push the branch to github, it will automaticlally update the PR
 
 - `git branch -d <name>`: will delete the branch <name>
+- `git fetch --prune`: will delete branches form the remote
