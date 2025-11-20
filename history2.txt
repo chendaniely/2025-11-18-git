@@ -1,0 +1,65 @@
+  503  cd 2025-11-18-git/
+  504  ls
+  505  git log --oneline --graph --all
+  506  git switch main
+  507  git pull origin main
+  508  git branch -a
+  509  git fetch --prune
+  510  git log --oneline --graph --all
+  511  git branch -d b1
+  512  git log --oneline --graph --all
+  513  git branch -a
+  514  git status
+  515  git switch -c b1
+  516  git status
+  517  git log --oneline --graph --all
+  518  positron .
+  519  git status
+  520  git add README.md
+  521  git commit -m "talk about git fetch --prune"
+  522  git push origin b1
+  523  git swtich main
+  524  git switch main
+  525  git switch -c b2
+  526  git status
+  527  git add README.md
+  528  git commit -m "git branch -d"
+  529  git push origin b2
+  530  git switch main
+  531  git pull origin main
+  532  git log --oneline --graph --all\
+  533  git log --oneline --graph --all
+  534  git switch b1
+  535  git log --oneline --graph --all
+  536  git rebase main
+  537  git status
+  538  git add README.md
+  539  git commit -m "fix conflict"
+  540  git log --oneline --graph --all
+  541  git status
+  542  git rebase --continue
+  543  git log --oneline --graph --all
+  544  git push origin b1
+  545  git push --force origin b1
+  546  git switch main
+  547  git pull origin main
+  548  ls
+  549  pyenv versions
+  550  pyenv shell miniforge3-latest
+  551  conda activate base
+  552  ls
+  553  cat environment.yml
+  554  conda-lock --versi5on
+  555  conda-lock --version
+  556  # conda install -c conda-forge conda-lock
+  557  conda --version
+  558  conda-lock -f environment.yml
+  559  ls
+  560  cat conda-lock.yml
+  561  history
+
+# create new conda env from conda lock file
+conda-lock install --name 522m1 conda-lock.yml
+
+# pull a docker container
+docker pull continuumio/miniconda3:23.9.0-0
