@@ -8,3 +8,5 @@
   - `git switch -c <name>`: create <name> and switch to it in one go, from HEAD
 
 - when you push the branch to github, it will automaticlally update the PR
+
+- `git branch -d <name>`: will delete the branch <name>
